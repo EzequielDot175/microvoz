@@ -1,0 +1,142 @@
+@import "crm_cargador";
+
+// generals
+.span-close{
+	background: url(close-65.png) 0px 0px;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+    margin: 0 auto;
+    display: block;
+}
+
+.span-line{
+	height: 1.3px;
+	background: rgba(#333333, 0.5);
+	margin-top: 11px;
+	display: block;
+}
+.agrupacion{
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #606060;
+}
+.list-agrupacion{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	li{
+		font-weight: bold;
+		font-size: 11px;
+		margin-top: 13px;
+		color: #545454;
+		&:first-child{
+			margin-top: 18px;
+		}
+		&.active{
+			color: #9DC969;
+		}
+	}
+}
+.search-input-triangle{
+	width: 215px;
+	position:relative;
+	height: 33px;
+	background: #DDDDDD;
+	&:before{
+		display: block;
+		position: absolute;
+		left: 100%;
+		top: 0;
+		height: 33px;
+		border-top: 10px solid black; 
+		border-bottom: 10px solid black; 
+		border-left: 10px solid black; 
+		border-right: 10px solid black; 
+	}
+	input{
+		background: rgba(255, 255, 255, 0.5);
+		border: 1px solid rgba(160, 160, 160, 0.5);
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		margin-left: 13px;
+	}
+}
+
+.container_step8{
+	width: 1069px;
+	height: 669px;
+	.row1{
+		width: 271px;
+		float: left;
+		height: calc(100% - 10px);
+		background: #E2E2E2;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+		.item{
+			background: #6B6B6B;
+			height: 30px;
+			img{
+				vertical-align: middle;
+			}
+			.content{
+				float: right;
+				height: 100%;
+				display: block;
+				width: 88%;
+				.inf1{
+					display: block;
+					font-size: 8px;
+					color: white;
+					margin-top: 3px;
+				}
+				.inf2{
+					color: white;
+					font-size: 13px;
+				}
+				.span-close{
+					float: right;
+					position: relative;
+					top: -5px;
+					left: -6px;
+				}
+			}
+		}
+	}
+	.row2{
+		width: 776px;
+		float: left;
+		margin-left: 1px;
+		height: 100%;
+		background: #E2E2E2;
+		h3{
+			height: 41px;
+			line-height: 41px;
+			padding-left: 8px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.center-cont{
+			width: 756px;
+			height: 593px;
+			margin: 0 auto;
+
+
+			.section{
+				height: 196px;
+				width: 250px;
+				float: left;
+				background: #D1D1D1;
+				margin-left: 2px;
+				margin-top: 2px;
+
+			}
+		}
+
+	}
+}

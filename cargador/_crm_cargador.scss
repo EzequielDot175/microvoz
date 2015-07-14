@@ -1,0 +1,499 @@
+.crm_cargador_contenedor {
+  width: 944px;
+  height: 690px;
+  background: #E2E2E2;
+  position: relative; }
+  .crm_cargador_contenedor .steps p {
+    font-size: 14px;
+    padding: 10px;
+    padding-bottom: 0; }
+  .crm_cargador_contenedor .steps .display {
+    width: 289px;
+    margin-top: 19px;
+    margin-bottom: 70px;
+    margin-left: 29px;
+    border-top: 2px solid rgba(68, 68, 68, 0.2);
+    position: relative; }
+    .crm_cargador_contenedor .steps .display .circle {
+      position: absolute;
+      height: 28.6px;
+      width: 28.6px;
+      background: #D1D1D1;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 28.6px;
+      color: #000000;
+      font-size: 13px;
+      font-weight: bold; }
+      .crm_cargador_contenedor .steps .display .circle.active {
+        background: #474746;
+        color: white; }
+      .crm_cargador_contenedor .steps .display .circle:first-child {
+        top: -14px;
+        left: 0; }
+      .crm_cargador_contenedor .steps .display .circle:nth-child(2) {
+        top: -14px;
+        left: calc(50% - (28.6px / 2) ); }
+      .crm_cargador_contenedor .steps .display .circle:nth-child(3) {
+        top: -14px;
+        left: calc(100% - 28.6px); }
+      .crm_cargador_contenedor .steps .display .circle span {
+        position: absolute;
+        top: 37px;
+        line-height: initial;
+        width: 80px;
+        left: -27px;
+        color: #606160; }
+  .crm_cargador_contenedor .btn-next, .crm_cargador_contenedor .btn-back {
+    position: absolute;
+    bottom: 8px;
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+    width: 98px;
+    height: 18px;
+    border: 0;
+    background: #343333;
+    cursor: pointer; }
+  .crm_cargador_contenedor .btn-next {
+    right: 8px; }
+  .crm_cargador_contenedor .btn-back {
+    left: 8px; }
+  .crm_cargador_contenedor .form-step1 {
+    width: 266px;
+    padding-left: 19px; }
+    .crm_cargador_contenedor .form-step1 label {
+      font-size: 11px;
+      font-weight: bold;
+      width: 73px;
+      text-align: right;
+      float: left;
+      height: 22px;
+      line-height: 22px;
+      padding-right: 5px;
+      margin-bottom: 5px;
+      outline: none;
+      border: 0;
+      color: #606160; }
+    .crm_cargador_contenedor .form-step1 input {
+      float: left;
+      width: 180px;
+      height: 22px;
+      background: #D1D1D1;
+      margin-bottom: 5px;
+      outline: none;
+      border: 0;
+      color: #606160;
+      padding-left: 5px; }
+      .crm_cargador_contenedor .form-step1 input::-webkit-input-placeholder {
+        color: #606160;
+        font-size: 11px; }
+      .crm_cargador_contenedor .form-step1 input:-moz-placeholder {
+        color: #606160;
+        font-size: 11px; }
+      .crm_cargador_contenedor .form-step1 input::-moz-placeholder {
+        color: #606160;
+        font-size: 11px; }
+      .crm_cargador_contenedor .form-step1 input:-ms-input-placeholder {
+        color: #606160;
+        font-size: 11px; }
+      .crm_cargador_contenedor .form-step1 input:focus {
+        border: 1px solid #444444;
+        background: transparent; }
+        .crm_cargador_contenedor .form-step1 input:focus::-webkit-input-placeholder {
+          color: black; }
+        .crm_cargador_contenedor .form-step1 input:focus:-moz-placeholder {
+          color: black; }
+        .crm_cargador_contenedor .form-step1 input:focus::-moz-placeholder {
+          color: black; }
+        .crm_cargador_contenedor .form-step1 input:focus:-ms-input-placeholder {
+          color: black; }
+    .crm_cargador_contenedor .form-step1 select {
+      float: left;
+      width: 185px;
+      height: 22px;
+      background: #D1D1D1;
+      margin-bottom: 5px;
+      outline: none;
+      border: 0;
+      color: #606160; }
+
+.crm_cargador_contenedor .title-section {
+  font-size: 13px;
+  padding-left: 10px;
+  margin-bottom: 43px; }
+.crm_cargador_contenedor .new-item-step4 {
+  float: right;
+  border: 0;
+  background: none;
+  outline: none;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: top;
+  cursor: pointer; }
+  .crm_cargador_contenedor .new-item-step4 span {
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+    position: relative;
+    top: -8px; }
+.crm_cargador_contenedor .form-step4 .table {
+  display: table;
+  width: 887px;
+  margin-bottom: 32px;
+  padding-left: 5px;
+  position: relative; }
+  .crm_cargador_contenedor .form-step4 .table .title-table {
+    margin-left: 34px;
+    color: #606160;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    left: -1px; }
+  .crm_cargador_contenedor .form-step4 .table .thrash {
+    position: absolute;
+    left: 101%;
+    bottom: 1px;
+    background: url(thrash.png) -2px -4px;
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    width: 15px; }
+  .crm_cargador_contenedor .form-step4 .table .row {
+    display: table-row; }
+    .crm_cargador_contenedor .form-step4 .table .row .close {
+      background: url(close-65.png) 0px 0px;
+      height: 14px;
+      width: 14px;
+      cursor: pointer;
+      position: relative;
+      top: 3px;
+      display: none;
+      margin: 0 auto; }
+    .crm_cargador_contenedor .form-step4 .table .row.menu .cell {
+      background: rgba(68, 68, 68, 0.2);
+      background-color: rgba(68, 68, 68, 0.2);
+      font-size: 9px;
+      color: #000000;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-right: 1px solid #E2E2E2;
+      text-align: center;
+      text-transform: uppercase; }
+    .crm_cargador_contenedor .form-step4 .table .row.menu .cell:first-child {
+      background: none;
+      background-color: none; }
+    .crm_cargador_contenedor .form-step4 .table .row.data .cell {
+      background: #D7D7D7;
+      background-color: #D7D7D7;
+      font-size: 9px;
+      color: #606068;
+      padding-bottom: 5px;
+      border-right: 1px solid #E2E2E2;
+      text-align: center;
+      border-top: 1px solid #E2E2E2;
+      text-transform: uppercase; }
+      .crm_cargador_contenedor .form-step4 .table .row.data .cell:first-child {
+        padding: 0; }
+        .crm_cargador_contenedor .form-step4 .table .row.data .cell:first-child input {
+          padding: 0;
+          display: block;
+          margin: 0 auto;
+          position: relative;
+          top: 3px; }
+    .crm_cargador_contenedor .form-step4 .table .row .cell {
+      display: table-cell; }
+      .crm_cargador_contenedor .form-step4 .table .row .cell input {
+        width: initial; }
+      .crm_cargador_contenedor .form-step4 .table .row .cell:first-child {
+        background: none;
+        background-color: none; }
+  .crm_cargador_contenedor .form-step4 .table.table_active .row.data .cell {
+    background: rgba(255, 237, 0, 0.5);
+    background-color: rgba(255, 237, 0, 0.5); }
+    .crm_cargador_contenedor .form-step4 .table.table_active .row.data .cell:first-child {
+      background: none;
+      background-color: none; }
+.crm_cargador_contenedor .form-step4 .upload-content {
+  height: 389px;
+  width: 882px;
+  display: none;
+  margin-left: 33px; }
+  .crm_cargador_contenedor .form-step4 .upload-content .content1 {
+    width: 495px;
+    float: left;
+    margin-right: 1px;
+    background: #F1F1F1;
+    height: calc(100% - 31px);
+    padding-bottom: 21px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px; }
+    .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row3, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 {
+      float: left; }
+    .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 {
+      height: 356px;
+      width: 155px;
+      margin-left: 5px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 input[type=text] {
+        width: 100%;
+        height: 17.663px;
+        margin-top: 4px;
+        background: rgba(211, 210, 210, 0.58);
+        background-color: rgba(211, 210, 210, 0.58); }
+      .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul {
+        height: 314px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        background: rgba(211, 210, 210, 0.58);
+        background-color: rgba(211, 210, 210, 0.58);
+        overflow: scroll;
+        overflow-x: hidden;
+        position: relative;
+        top: -6px; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul::-webkit-scrollbar {
+          width: 6px;
+          background: #424242; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul::-webkit-scrollbar-thumb {
+          height: 5px;
+          border-radius: 5px;
+          background: #808080; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul::-ms-scrollbar {
+          width: 6px;
+          background: #424242; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul::-ms-scrollbar-thumb {
+          height: 5px;
+          border-radius: 5px;
+          background: #808080; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul::-o-scrollbar {
+          width: 6px;
+          background: #424242; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul::-o-scrollbar-thumb {
+          height: 5px;
+          border-radius: 5px;
+          background: #808080; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul li {
+          height: 17px;
+          line-height: 17px;
+          cursor: pointer;
+          padding-left: 5px;
+          text-transform: uppercase;
+          font-weight: bold; }
+          .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul li.active, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row1 ul li:hover {
+            background: rgba(255, 237, 0, 0.5);
+            background-color: rgba(255, 237, 0, 0.5); }
+    .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 {
+      height: 356px;
+      width: 75px;
+      margin-left: 7px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul {
+        padding: 0;
+        margin: 0;
+        margin-top: 4px;
+        height: 341px;
+        list-style-type: none;
+        background: rgba(211, 210, 210, 0.58);
+        background-color: rgba(211, 210, 210, 0.58);
+        overflow: scroll;
+        overflow-x: hidden; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul::-webkit-scrollbar, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul::-webkit-scrollbar {
+          width: 6px;
+          background: #424242; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul::-webkit-scrollbar-thumb, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul::-webkit-scrollbar-thumb {
+          height: 5px;
+          border-radius: 5px;
+          background: #808080; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul::-ms-scrollbar, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul::-ms-scrollbar {
+          width: 6px;
+          background: #424242; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul::-ms-scrollbar-thumb, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul::-ms-scrollbar-thumb {
+          height: 5px;
+          border-radius: 5px;
+          background: #808080; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul::-o-scrollbar, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul::-o-scrollbar {
+          width: 6px;
+          background: #424242; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul::-o-scrollbar-thumb, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul::-o-scrollbar-thumb {
+          height: 5px;
+          border-radius: 5px;
+          background: #808080; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul li, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul li {
+          height: 17px;
+          line-height: 17px;
+          cursor: pointer;
+          padding-left: 5px;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-align: center; }
+          .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul li.active, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row2 ul li:hover, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul li.active, .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul li:hover {
+            background: rgba(255, 237, 0, 0.5);
+            background-color: rgba(255, 237, 0, 0.5); }
+    .crm_cargador_contenedor .form-step4 .upload-content .content1 .row3 {
+      height: 356px;
+      width: 98px;
+      margin-left: 10px;
+      position: relative; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content1 .row3 button {
+        width: 100%;
+        background: rgba(52, 51, 51, 0.7);
+        background-color: rgba(52, 51, 51, 0.7);
+        border: 0;
+        height: 18px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content1 .row3 button:first-child {
+          bottom: 23px; }
+    .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 {
+      width: 123px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content1 .row4 ul li {
+        text-align: left; }
+  .crm_cargador_contenedor .form-step4 .upload-content .content2 {
+    width: 376px;
+    float: left;
+    background: #F1F1F1;
+    height: 100%; }
+    .crm_cargador_contenedor .form-step4 .upload-content .content2 fieldset {
+      border: 0; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content2 fieldset label {
+        margin-left: 23px;
+        margin-right: 5px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content2 fieldset input {
+        width: 255px;
+        padding: 2px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content2 fieldset #text-file {
+        width: 198px;
+        height: 16px;
+        border: 1px solid rgba(68, 68, 68, 0.3);
+        background: transparent;
+        padding-left: 5px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content2 fieldset button {
+        background: rgba(52, 51, 51, 0.7);
+        background-color: rgba(52, 51, 51, 0.7);
+        border: 0;
+        width: 98px;
+        height: 18px;
+        color: white;
+        margin-top: 10px; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content2 fieldset button.up {
+          margin-left: 62px; }
+    .crm_cargador_contenedor .form-step4 .upload-content .content2 label {
+      font-weight: bold;
+      font-size: 11px; }
+    .crm_cargador_contenedor .form-step4 .upload-content .content2 .box-options {
+      width: 236px;
+      margin-left: 50px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content2 .box-options input[type=radio] {
+        width: initial;
+        margin: 0; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content2 .box-options label {
+        font-size: 11px;
+        font-weight: bold;
+        position: relative;
+        top: -2px; }
+      .crm_cargador_contenedor .form-step4 .upload-content .content2 .box-options .confirmed {
+        margin-top: 20px; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content2 .box-options .confirmed span.icon-accept {
+          background: url(ok-65.png);
+          height: 13px;
+          width: 15px;
+          display: inline-block;
+          margin-top: 3px;
+          position: relative;
+          top: 2px; }
+        .crm_cargador_contenedor .form-step4 .upload-content .content2 .box-options .confirmed p {
+          padding: 0;
+          font-size: 11px;
+          font-weight: bold;
+          color: #353535;
+          display: inline-block;
+          margin: 0; }
+          .crm_cargador_contenedor .form-step4 .upload-content .content2 .box-options .confirmed p span.gray {
+            color: #545454; }
+
+.crm_cargador_contenedor .content-cargador {
+  width: 858px;
+  height: 396px;
+  margin-left: 30px; }
+  .crm_cargador_contenedor .content-cargador .column1 {
+    width: 298px;
+    float: left;
+    height: 100%; }
+    .crm_cargador_contenedor .content-cargador .column1 h4 {
+      height: 32px;
+      color: white;
+      padding-left: 15px;
+      margin: 0;
+      background: #A8A8A8;
+      color: white;
+      line-height: 32px; }
+    .crm_cargador_contenedor .content-cargador .column1 button {
+      float: right;
+      border: 0;
+      background: #696868;
+      color: white;
+      font-weight: bold;
+      padding-bottom: 1px;
+      margin-top: 10px;
+      font-size: 11px;
+      height: 18px;
+      line-height: 18px; }
+    .crm_cargador_contenedor .content-cargador .column1 .subcontent {
+      width: 298px;
+      height: 281px;
+      margin-top: 2px;
+      background: #D1D1D1; }
+      .crm_cargador_contenedor .content-cargador .column1 .subcontent ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none; }
+        .crm_cargador_contenedor .content-cargador .column1 .subcontent ul li {
+          padding-left: 8px;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          font-size: 11px; }
+          .crm_cargador_contenedor .content-cargador .column1 .subcontent ul li span {
+            color: initial;
+            font-weight: bold; }
+    .crm_cargador_contenedor .content-cargador .column1 .subcontent2 {
+      height: 52px;
+      background: #C3C3C3;
+      margin-top: 1px; }
+      .crm_cargador_contenedor .content-cargador .column1 .subcontent2 p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        /* padding-top: 5px; */
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
+        .crm_cargador_contenedor .content-cargador .column1 .subcontent2 p span {
+          font-weight: normal;
+          color: initial; }
+  .crm_cargador_contenedor .content-cargador .column2 {
+    width: 539px;
+    float: left;
+    height: 100%;
+    margin-left: 21px; }
+    .crm_cargador_contenedor .content-cargador .column2 h4 {
+      height: 32px;
+      color: white;
+      padding-left: 15px;
+      margin: 0;
+      background: #A8A8A8;
+      color: white;
+      line-height: 32px; }
+    .crm_cargador_contenedor .content-cargador .column2 .subcontent {
+      width: 100%;
+      height: 362px;
+      margin-top: 2px;
+      background: #D1D1D1; }
+
+/*# sourceMappingURL=crm_cargador.css.map */

@@ -1,0 +1,548 @@
+.item-text:before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  position: absolute;
+}
+
+.item-text.folder:before {
+  background: url(bg/icons-27.png) -6px -6px;
+  height: 15px;
+  width: 15px;
+  top: 25%;
+  left: 13px;
+}
+
+.item-text.phone:before {
+  background: url(bg/icons-27.png) -3px -27px;
+  height: 20px;
+  width: 24px;
+  top: 25%;
+  left: 7px;
+}
+
+.item-text.sat:before {
+  background: url(bg/icons-27.png) -1px -49px;
+  height: 21px;
+  width: 21px;
+  top: 17%;
+  left: 10px;
+}
+
+.item-text.boxes:before {
+  background: url(bg/icons-27.png) -5px -76px;
+  height: 15px;
+  width: 20px;
+  top: 25%;
+  left: 9px;
+}
+
+.segmentacion .search-crm {
+  padding-top: 30px;
+  padding-bottom: 21px;
+}
+
+.segmentacion .search-crm input[type=text] {
+  width: 181px;
+  height: 16px;
+  padding: 0;
+}
+
+.segmentacion .search-crm input[type=submit] {
+  background-color: #333333;
+  background: #333333;
+  color: white;
+  height: 18px;
+  width: 80px;
+  border: 0;
+  padding: 0;
+}
+
+.segmentacion .control-general {
+  width: 846px;
+  height: 410px;
+}
+
+.segmentacion .control-general .column {
+  float: left;
+  width: 280px;
+  height: 409px;
+  margin-right: 3px;
+}
+
+.segmentacion .control-general .column:last-child {
+  margin-right: 0;
+}
+
+.segmentacion .control-general .column .column-title {
+  height: 32px;
+  width: 100%;
+  background-color: #A8A8A8;
+  background: #A8A8A8;
+  text-align: center;
+  line-height: 32px;
+  color: white;
+  margin: 0;
+}
+
+.segmentacion .control-general .column .column-list {
+  height: 375px;
+  background: #E8E8E8;
+  width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 2px;
+}
+
+.segmentacion .control-general .column .column-list .column-list-item {
+  position: relative;
+  height: 33px;
+  line-height: 33px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 34px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.segmentacion .control-general .column .column-list .column-list-item:hover, .segmentacion .control-general .column .column-list .column-list-item.active-item {
+  background: #D5D5D5;
+}
+
+.segmentacion .control-general .column .column-list .column-list-item .item-text {
+  color: #545454;
+}
+
+.segmentacion .control-edit {
+  margin-top: 27px;
+  height: 70px;
+}
+
+.segmentacion .control-edit .column-control-edit {
+  float: left;
+  margin-right: 2px;
+}
+
+.segmentacion .control-edit .column-control-edit .column-title {
+  height: 32px;
+  background: #A8A8A8;
+  color: white;
+  line-height: 32px;
+  padding-left: 14px;
+  font-weight: bold;
+}
+
+.segmentacion .control-edit .column-control-edit .column-item-selected {
+  height: 36px;
+  width: calc(100% - 33px);
+  background: #E8E8E8;
+  margin-top: 2px;
+  position: relative;
+  padding-left: 33px;
+  line-height: 36px;
+}
+
+.segmentacion .control-edit .column-control-edit .column-item-selected .item-text {
+  color: #545454;
+}
+
+.segmentacion .control-edit .column-control-edit .column-item-count-selected, .segmentacion .control-edit .column-control-edit .column-item-actions {
+  background: #E8E8E8;
+  text-align: center;
+  line-height: 36px;
+  margin-top: 2px;
+  height: 36px;
+}
+
+.segmentacion .control-edit .column-control-edit .column-item-actions {
+  padding-top: 9px;
+  height: calc(36px - 9px);
+}
+
+.span-item-action.window {
+  background: url(bg/icons-27.png) -6px -98px;
+  height: 20px;
+  width: 20px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  float: left;
+}
+
+.span-item-action.edit {
+  background: url(bg/icons-27.png) -6px -256px;
+  height: 20px;
+  width: 20px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  float: left;
+}
+
+.span-item-action.delete {
+  background: url(bg/icons-27.png) -2px -147px;
+  height: 20px;
+  width: 20px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  float: left;
+}
+
+.segmentacion .control-edit .column-control-edit:first-child {
+  width: 500px;
+}
+
+.segmentacion .control-edit .column-control-edit:nth-child(2) {
+  width: 129px;
+}
+
+.segmentacion .control-edit .column-control-edit:last-child {
+  width: 211px;
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=style_crm.css.map */
+.segmentacion .control-general {
+  height: 484px;
+}
+
+.segmentacion .control-general .column {
+  height: 100%;
+}
+
+.segmentacion .control-general .column .column-list {
+  height: 450px;
+}
+
+.segmentacion .control-general .column .column-list .column-list-item.add-items {
+  height: 44px;
+  background: rgba(163, 163, 163, 0.45);
+  background-color: rgba(163, 163, 163, 0.45);
+  line-height: 44px;
+}
+
+.segmentacion .control-general .new-segment {
+  height: 34px;
+  cursor: pointer;
+  position: relative;
+  top: -34px;
+  width: calc(100% - 18px);
+  padding-left: 18px;
+}
+
+.segmentacion .control-general .new-segment .icon-add {
+  font-size: 21px;
+  color: #545454;
+}
+
+.segmentacion .control-general .new-segment .item-text {
+  font-weight: bold;
+  color: #545454;
+  position: relative;
+  top: -3px;
+}
+
+/*# sourceMappingURL=style_crm.css.map */
+.segmentacion .control-general {
+  height: 484px;
+}
+.segmentacion .control-general .column {
+  height: 100%;
+}
+.segmentacion .control-general .column .column-list {
+  height: 450px;
+}
+.segmentacion .control-general .column .column-list .column-list-item.add-items {
+  cursor: initial;
+  height: 44px;
+  background: rgba(163, 163, 163, 0.45);
+  background-color: rgba(163, 163, 163, 0.45);
+  line-height: 44px;
+}
+.segmentacion .control-general .column .column-list .column-list-item.add-items .subcontrols {
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  display: inline-block;
+}
+.segmentacion .control-general .column .column-list .column-list-item.add-items .subcontrols span {
+  cursor: pointer;
+}
+.segmentacion .control-general .new-segment {
+  height: 34px;
+  cursor: pointer;
+  position: relative;
+  top: -34px;
+  width: calc(100% - 18px);
+  padding-left: 18px;
+}
+.segmentacion .control-general .new-segment .icon-add {
+  font-size: 21px;
+  color: #545454;
+}
+.segmentacion .control-general .new-segment .item-text {
+  font-weight: bold;
+  color: #545454;
+  position: relative;
+  top: -3px;
+}
+
+.segmentacion .search-type-2 .modal {
+  position: relative;
+  vertical-align: top;
+  width: 215px;
+  display: inline-block;
+  background: #DDDDDD;
+  height: 33px;
+}
+.segmentacion .search-type-2 .modal:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: inline-block;
+  border-bottom: calc(33px / 2) solid transparent;
+  border-top: calc(33px / 2) solid transparent;
+  border-left: calc(15px / 2) solid #DDDDDD;
+  border-right: calc(15px / 2) solid transparent;
+}
+.segmentacion .search-type-2 .modal input {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  display: block;
+  margin: 0 auto;
+}
+.segmentacion .search-type-2 .modal.wt {
+  background: none;
+  border-top: 1px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
+}
+.segmentacion .ctrl-seg {
+  width: 936px;
+  height: 619px;
+}
+.segmentacion .ctrl-seg .columns {
+  float: left;
+  width: 291px;
+  height: 100%;
+  background: #E2E2E2;
+}
+.segmentacion .ctrl-seg .columns .area {
+  font-size: 11px;
+  font-weight: bold;
+  color: black;
+  padding-left: 13px;
+  padding-top: 15px;
+}
+.segmentacion .ctrl-seg .columns:last-child {
+  width: 645px;
+  height: 100%;
+  background: #D1D1D1;
+}
+.segmentacion .ctrl-seg .columns #graph {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  tranform: translateY(50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+}
+.segmentacion .ctrl-seg .columns .column-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.segmentacion .ctrl-seg .columns .column-list .list-level-1:hover {
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+.segmentacion .ctrl-seg .columns .column-list li {
+  position: relative;
+  cursor: pointer;
+}
+.segmentacion .ctrl-seg .columns .column-list li h3 {
+  font-size: 11px;
+  font-weight: bold;
+  color: #626262;
+  text-transform: uppercase;
+  padding-left: 45px;
+  outline: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.segmentacion .ctrl-seg .columns .column-list li .sub-list {
+  padding-left: 66px;
+}
+.segmentacion .ctrl-seg .columns .column-list li .sub-list ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.segmentacion .ctrl-seg .columns .column-list li .sub-list ul li {
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #626262;
+}
+.segmentacion .ctrl-seg .columns .column-list li .sub-list ul li:hover {
+  color: #9DC969;
+}
+.segmentacion .ctrl-seg .columns .column-list li .sub-list ul li:first-letter {
+  text-transform: uppercase;
+}
+
+.icon-list-seg.phone:after {
+  background: url(bg/icons-medium-55.png) -4px -11px;
+  content: "";
+  height: 22px;
+  width: 28px;
+  top: 1px;
+  left: 12px;
+  position: absolute;
+}
+.icon-list-seg.receiver:after {
+  background: url(bg/icons-medium-55.png) -4px -38px;
+  content: "";
+  height: 26px;
+  width: 28px;
+  top: 1px;
+  left: 12px;
+  position: absolute;
+}
+.icon-list-seg.folder:after {
+  background: url(bg/icons-medium-55.png) -4px -69px;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: 1px;
+  left: 12px;
+  position: absolute;
+}
+.icon-list-seg.box:after {
+  background: url(bg/icons-medium-55.png) -4px -94px;
+  content: "";
+  height: 20px;
+  width: 26px;
+  top: 3px;
+  left: 12px;
+  position: absolute;
+}
+
+.ui-helper-hidden {
+  display: none;
+}
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse;
+}
+
+.ui-helper-clearfix:after {
+  clear: both;
+}
+
+.ui-helper-clearfix {
+  min-height: 0;
+}
+
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+}
+
+.ui-front {
+  z-index: 100;
+}
+
+.ui-state-disabled {
+  cursor: default !important;
+}
+
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  min-height: 0;
+  font-size: 100%;
+}
+
+.ui-accordion .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=style_crm.css.map */

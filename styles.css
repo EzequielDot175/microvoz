@@ -1,0 +1,559 @@
+body{
+	padding:			2px;
+	margin:				2px;
+}
+.tooltip {
+	color: #000000;  
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffcc66; 
+    	font-family: sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0;
+	margin: 0 1px 0 0;
+	padding: 1px;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+	z-index: 1;	
+	background-color: #ffff99; 
+	-moz-opacity: 0.7;  
+	opacity: 0.7; 
+}
+
+body, div, td{
+	font-family:		Tahoma, Verdana, Arial, Helvetica;
+	font-size:			11px;
+}
+
+.Checkbox{
+	cursor:				pointer;
+}
+
+#header{
+	border:				1px solid #000000;
+	width:				808px;
+	height:				60px;
+}
+
+/********************************************************************** CONTENEDOR */
+#tblBody{
+	border:				0px solid #000000;
+	width:				800px;
+	height:				650px;
+}
+
+#tblBody .ToolBar{
+	height:				60px;
+}
+
+#tblBody .Menu{
+	border:				1px outset;
+	border-right:		0px outset;
+}
+
+#tblBody .Bandeja{
+	border-bottom:		1px outset;
+	padding-left:       6px;
+}
+
+#tblBody .Supervicion{
+    background-color:   #F8F8F8;
+	border-right:		1px outset;
+}
+
+#tblBody .FooterLeft{
+    background-color:   #F8F8F8;
+	border-bottom:		1px outset;
+}
+
+#tblBody .FooterRight{
+    background-color:   #F8F8F8;
+	border-right:		1px outset;
+	border-bottom:		1px outset;
+}
+
+#tblBody .FooterRight #SistemAyuda #SistemAyudaMarquee td.Ayuda span#Title{
+    color:#000000;
+    font-weight:		bold;
+	text-decoration:	underline;
+}
+
+#tblBody .FooterRight #SistemAyuda #SistemAyudaMarquee td.Ayuda span{
+    color:				#000000;
+    font-weight:		bold;
+}
+
+#tblBody .FooterRight #SistemAyuda #SistemAyudaMarquee li#Decripcion{
+    color:				#000000;
+    font-weight:		bold;
+}
+
+#tblBody .FooterRight #SistemAyuda #SistemAyudaMarquee li#Decripcion ul li{
+    color:				#000000;
+    font-weight:		normal;
+}
+/********************************************************************** CONTENEDOR */
+
+/********************************************************************** TOOLBAR */
+#tblToolbar{
+	border:             1px outset;
+	width:				808px;
+
+}
+
+#tblToolbar #ToolMensaje{
+    text-align:			center;
+}
+
+#tblToolbar #ToolMensaje span#Bienvenido{
+	font-size:			12px;
+	font-weight:		bold;
+}
+
+#tblToolbar #ToolMensaje span#Bienvenido span#Agente{
+	font-size:			20px;
+    color:#000000;
+}
+
+#tblToolbar #ToolMensaje span#Bienvenido span#Interno{
+	font-size:			20px;
+    color:#000000;
+}
+
+.buttonDefault
+{
+	display:			inline;
+	padding-top:		37px;
+	padding-left:		10px;
+	padding-right:		10px;
+	cursor:				pointer;
+	text-align:         center;
+}
+
+.buttonMouseDown 
+{
+	display:			inline;
+   	padding-top:		37px;
+	padding-left:		9px;
+	padding-right:		9px;
+	border-left:		1px solid buttonshadow;
+	border-top:			1px solid buttonshadow;
+	border-right:		1px solid buttonshadow;
+	border-bottom:		1px solid buttonshadow;
+	cursor:				pointer;
+	text-align:         center;
+}
+
+.buttonMouseOver 
+{
+	display:inline;
+	padding-top:		37px;
+	padding-left:		9px;
+	padding-right:		9px;
+	border-left:		1px outset;
+	border-top:			1px outset;
+	border-right:		1px outset;
+	border-bottom:		1px outset;
+	cursor:				pointer;
+	text-align:         center;
+}
+
+.toolbarSeparator
+{
+	height:				20;
+	width:              1;
+	margin-left:        1px;
+	margin-right:       1px;
+	border-top:			buttonhighlight 1px solid; 
+	border-left:		buttonhighlight 1px solid; 
+	border-right:		1px outset; 
+	border-bottom:		buttonshadow 1px solid; 
+}
+
+.buttonSeparator
+{
+
+	height:				20;
+	margin-left:        1px;
+	margin-right:       1px;
+	border-right:		1px outset;
+}
+/********************************************************************** TOOLBAR */
+
+/********************************************************************** MENU */
+#tblMenu{
+	width:				200px;
+}
+
+#tblMenu tr.Items{
+	cursor:				pointer;
+}
+
+#tblMenu tr.Items:hover{
+	color:				#c9c9c9;
+}
+
+#tblMenu tr.selected{
+	color:				#c9c9c9;
+}
+
+#tblMenu tr.Items td.Iconos{
+    width:				10px;
+}
+
+#tblMenu tr td.configurar_Cliente {
+    text-align:			right;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+#tblMenu tr td.configurar_Cliente select{
+	font-family:		Tahoma, Verdana, Arial, Helvetica;
+	font-size:			11px;
+	border:             0px;
+	width:				170px;
+	cursor:				pointer;
+}
+
+/********************************************************************** MENU */
+
+/********************************************************************** BANDEJA */
+#tblBandeja{
+	border:             1px outset;
+	width:				600px;
+}
+
+#tblBandeja td.HeaderTool{
+	height:             30px;
+}
+	/********************************************************************** BADEJA TOOL */
+    #tblBandeja #tblBandejaTool{
+		border:             1px outset;
+		border-left:        0px;
+		border-right:       0px;
+		width:				590;
+		height:             20px;
+	}
+
+    #tblBandeja #tblBandejaTool tr#tblBandejaToolLinks{
+		cursor:				pointer;
+	}
+
+    #tblBandeja #tblBandejaTool td.ImgTool{
+		padding-left:       1px;
+		width:				22px;
+	}
+
+    #tblBandeja #tblBandejaTool td.LinkTool{
+		padding-left:       5px;
+		cursor:				pointer;
+	}
+
+    #tblBandeja #tblBandejaTool td.LinkTool:hover{
+		text-decoration:    underline;
+	}
+		/********************************************************************** BADEJA MOVER */
+	    #tblBandeja #tblBandejaTool td.MoverTool{
+			padding-left:       5px;
+		}
+
+	    #tblBandeja #tblBandejaTool td.MoverTool select{
+			font-family:		Tahoma, Verdana, Arial, Helvetica;
+			font-size:			11px;
+		    border:             0px;
+			cursor:				pointer;
+		}		    
+		/********************************************************************** BADEJA MOVER */
+
+	/********************************************************************** BADEJA TOOL */
+
+#tblBandeja td.Header{
+	padding-left:       5px;
+	height:             20px;
+}
+
+#tblBandeja td.Columnas{
+
+	background-color:#FFFFFF;
+  font-weight: bold
+}
+
+#tblBandeja td.ColumnasDe{
+	padding-left:       6px;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  height: 40px
+}
+
+#tblBandeja td.Columnas img{
+	width:				15px;
+}
+
+#tblBandeja td.ColumnasDe img{
+	width:				15px;
+}
+
+#tblBandeja tr.NuevoMail:hover{
+  background-color: #FFFF00
+}
+
+#tblBandeja tr.NuevoMail{
+    font-weight:		bold;
+  background-color: #f9f9f9
+}
+
+#tblBandeja tr.OpenMail:hover{
+   background-color: #FFFF00
+
+}
+#tblBandeja tr.OpenMail{
+   background-color: #f9f9f9
+
+}
+#tblBandeja td div.linea  {
+  border-top-style: solid;
+  border-top-width:   1px;
+  border-top-color: #DDDDDD
+}
+
+#tblBandeja td.Filas{
+	padding-left:       6px;
+
+}
+
+#tblBandeja td.Filas a.AbrirMail{
+    color:				#000000;
+    text-decoration:	none;
+}
+
+#tblBandeja td.Filas a.AbrirMail:hover{
+    text-decoration:	underline;
+
+}
+
+#tblBandeja tfoot a{
+    color:				#000000;
+    text-decoration:	none;
+}
+
+#tblBandeja tfoot a:hover{
+    text-decoration:	underline;
+
+}
+
+/********************************************************************** BANDEJA */
+
+/********************************************************************** SUPERVISION MENU */
+#tblSupervision{
+	border-left:        1px outset;
+	width:				201px;
+}
+
+#tblSupervision tr.Items{
+	cursor:				pointer;
+	border-bottom:      1px outset;
+
+}
+
+#tblSupervision tr.Items:hover{
+    color:			    #000000;
+    font-weight:		bold;
+
+}
+
+#tblSupervision tr.selected{
+	cursor:				pointer;
+    color:			    #FFFFFF;
+    font-weight:		bold;
+}
+
+#tblSupervision tr td.FichaImg{
+	width:				30px;
+}
+
+#tblSupervision tr td{
+	border-bottom:      1px outset  #dddddd;
+}
+
+	/********************************************************************** SUB FICHAS */
+	
+	#tblSupervision tr td #subFichas{
+		border:      	    1px outset;
+		border-bottom:      0px;
+	}
+	
+	#tblSupervision tr td #subFichas tr{
+		cursor:				pointer;
+		border-bottom:      1px outset;
+  background-color: #f9f9f9
+}
+	
+	#tblSupervision tr td #subFichas tr:hover{
+  background-color: #FFFF00
+}
+	
+	#tblSupervision tr td #subFichas tr.selectedSub{
+       background-color: #f9f9f9
+	}
+
+	#tblSupervision tr td #subFichas tr td.imgSub{
+		text-align:         center;
+		width:				10px;    background-color: #f9f9f9
+	}
+      	#tblSupervision tr td #subFichas tr td.imgSub:hover{
+		text-align:         center;
+		width:				10px;    background-color: #f9f9f9
+	}
+	#tblSupervision tr td #subFichas tr td.imgSub img{
+		width:				25px;
+		width:				15px;   background-color: #f9f9f9
+
+	}
+	/********************************************************************** SUB FICHAS */
+
+#tblSupervision tr td.Supervisartbl{
+
+}
+
+#tblSupervision tr td div#Contenedor{
+	overflow:				auto;
+	height:					241px;;
+
+}
+/********************************************************************** SUPERVISION MENU */
+
+/********************************************************************** FORM MAILS */
+#tblFormMail{
+	border:             1px outset;
+	width:				600px;
+}
+
+#tblFormMail td.HeaderTool{
+	height:             30px;
+}
+	/********************************************************************** FORM TOOL */
+    #tblFormMail #tblTool{
+		border:             1px outset;
+		border-left:        0px;
+		border-right:       0px;
+		width:				590;
+		height:             20px;
+	}
+
+    #tblFormMail #tblTool td.ImgTool{
+		padding-left:       1px;
+		width:				22px;
+	}
+
+    #tblFormMail #tblTool td.LinkTool{
+		padding-left:       5px;
+		cursor:				pointer;
+	}
+
+    #tblFormMail #tblTool td.LinkTool:hover{
+		text-decoration:    underline;
+	}
+		/********************************************************************** FORM ADJUNTAR */
+	    #tblFormMail #tblTool td.AdjuntarTool{
+			padding-left:       5px;
+		}
+
+	    #tblFormMail #tblTool td.AdjuntarTool select{
+			font-family:		Tahoma, Verdana, Arial, Helvetica;
+			font-size:			11px;
+		    border:             0px;
+			cursor:				pointer;
+		}		    
+		/********************************************************************** FORM ADJUNTAR */
+
+	/********************************************************************** FORM TOOL */
+	
+#tblFormMail td.Descripcion{
+    padding-left:				5px;
+    height:						20px;
+    width:						46px;
+}	
+
+#tblFormMail td.Objeto{
+    padding-left:				5px;
+}	
+
+#tblFormMail td.Objeto #destino{
+    padding-left:				3px;
+	font-family:				Tahoma, Verdana, Arial, Helvetica;
+	font-size:					11px;
+	border:						1px solid #c9c9c9;
+	width:						535px;
+	height:						15px;		
+}	
+
+#tblFormMail td.Objeto #select{
+	font-family:				Tahoma, Verdana, Arial, Helvetica;
+	font-size:					11px;
+	border:						1px solid #c9c9c9;
+}	
+
+#tblFormMail td.Objeto #text{
+	font-family:				Tahoma, Verdana, Arial, Helvetica;
+	font-size:					11px;
+	border:						1px solid #c9c9c9;
+	padding-left:				3px;			
+}	
+
+#tblFormMail td.Objeto #file{
+	font-family:				Tahoma, Verdana, Arial, Helvetica;
+	font-size:					11px;
+	border:						1px solid #c9c9c9;
+}	
+
+#tblFormMail td #textarea{
+	font-family:				Tahoma, Verdana, Arial, Helvetica;
+	font-size:					11px;
+	border:						0px solid #ffffff;
+}	
+
+#tblFormMail td.Objeto #Archivos a{
+	font-family:				Tahoma, Verdana, Arial, Helvetica;
+	font-size:					11px;
+	color:						#0066ff;
+	text-decoration:			none;
+}	
+
+#tblFormMail td.ObjetoFooter{
+    height:						25px;
+}	
+
+#tblFormMail td.ObjetoFooter #Submit{
+    background-color:			#ffffff;
+	font-family:				Tahoma, Verdana, Arial, Helvetica;
+	font-size:					11px;
+	border:						1px solid #c9c9c9;
+	cursor:						pointer;
+}	
+
+#tblFormMail td div.linea{
+	border-top:			1px solid #c9c9c9;
+}
+
+#tblFormMail td.Objeto #select:focus{
+	background-color:	#F8F8F8;
+}	
+
+#tblFormMail td.Objeto #text:focus{
+	background-color:	#F8F8F8;
+}	
+
+#tblFormMail td.Objeto #file:focus{
+	background-color:	#F8F8F8;
+}	
+
+#tblFormMail td #textarea:focus{
+	background-color:	#F8F8F8;
+}	
+/********************************************************************** FORM MAILS */
