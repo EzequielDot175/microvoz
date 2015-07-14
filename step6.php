@@ -11,7 +11,7 @@
 			</div>
 			<div class="form">
 				<form action="">
-					<label> Nombre</label>
+					<label class="nombre"> Nombre</label>
 					<input type="text" name="" value="">
 					<label> Tipo de campo</label>
 					<select name="">
@@ -26,18 +26,24 @@
 
 			</div>
 			<div class="subcampos">
-				<p>subcampos</p>
-				<ul>
-					<li></li>
-					<li>Calle</li>
-					<li>Numero</li>
-					<li>Piso</li>
-					<li>Depto</li>
-					<li>Torre</li>
-					<li>Localidad</li>
-					<li>Provincia</li>
-					<li>Pais</li>
-					<li>CP</li>
+				<div class="titulo">
+					<p>Subcampos</p>
+				</div>
+				
+				<ul class="columnas">
+					<div class="a">
+						<li>Calle</li>
+						<li>Numero</li>
+						<li>Piso</li>
+						<li>Depto</li>
+						<li>Torre</li>
+					</div>
+					<div class="b">
+						<li>Localidad</li>
+						<li>Provincia</li>
+						<li>Pais</li>
+						<li>CP</li>
+					</div>
 				</ul>
 			</div>
 			
@@ -72,7 +78,7 @@
 
 	<div class="columna50 columna-background columna-tabla">
 
-			<table border="1">
+			<table>
 		        <thead>
 		            <tr>
 		                <th>Campo</th>
@@ -84,22 +90,50 @@
 		            <tr>
 		                <td>nombre</td>
 		                <td>texto</td>
-		                <td></td>
+		                <td class="acciones">
+		                	<div class="a">
+		                		<img src="images/icon1.png">
+		                	</div>
+		                	<div class="2">
+		                		<img src="images/icon2.png">
+		                	</div>
+		                </td>
 		            </tr>
 		             <tr>
 		                <td>apellido</td>
 		                <td>texto</td>
-		                <td></td>
+		                <td class="acciones">
+		                	<div class="a">
+		                		<img src="images/icon1.png">
+		                	</div>
+		                	<div class="2">
+		                		<img src="images/icon2.png">
+		                	</div>
+		                </td>
 		            </tr>
 		             <tr>
 		                <td>Telefono1</td>
 		                <td>telefono</td>
-		                <td></td>
+		                <td class="acciones">
+		                	<div class="a">
+		                		<img src="images/icon1.png">
+		                	</div>
+		                	<div class="2">
+		                		<img src="images/icon2.png">
+		                	</div>
+		                </td>
 		            </tr>
 		             <tr>
 		                <td>domicilio1</td>
 		                <td>domicilio</td>
-		                <td></td>
+		                <td class="acciones">
+		                	<div class="a">
+		                		<img src="images/icon1.png">
+		                	</div>
+		                	<div class="2">
+		                		<img src="images/icon2.png">
+		                	</div>
+		                </td>
 		            </tr>
 		        </tbody>
 		    </table>
