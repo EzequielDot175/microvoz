@@ -8,12 +8,14 @@
 	//colores
 	color1 = "#9DC969";
 	hcolor1 = "#AACE76"; //hover
-	color2 = "#E07979";
-	hcolor2 = "#9DC969";//hover
+	color2 = "#AEAEAE";
+	hcolor2 = "#BCBBBB";//hover
 	color3 = "#FDB45C";
 	hcolor3 = "#FFC870";//hover
-	color4 = "#AEAEAE";
-	hcolor4 = "#BCBBBB";//hover
+	color4 = "#E07979";
+	hcolor4 = "#9DC969";//hover
+	
+	
 
 	//grafico
 	var pieData = [
@@ -24,7 +26,7 @@
 				label: "Tickets cargados"
 			},
 			{
-				value: 2000,
+				value: 25000,
 				color: color2,
 				highlight: hcolor2,
 				label: "Error"
@@ -36,7 +38,7 @@
 				label: "Repetidos en archivo"
 			},
 			{
-				value: 25000 ,
+				value: 2000 ,
 				color: color4,
 				highlight: hcolor4,
 				label: "Ya tenían tickets"

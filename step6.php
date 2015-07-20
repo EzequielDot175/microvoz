@@ -87,48 +87,32 @@
 		                <td>nombre</td>
 		                <td>texto</td>
 		                <td class="acciones">
-		                	<div class="a">
-		                		<img src="images/icon1.png">
-		                	</div>
-		                	<div class="2">
-		                		<img src="images/icon2.png">
-		                	</div>
+		                	<div class="editar"></div>
+		                	<div class="borrar"></div>
 		                </td>
 		            </tr>
 		             <tr>
 		                <td>apellido</td>
 		                <td>texto</td>
 		                <td class="acciones">
-		                	<div class="a">
-		                		<img src="images/icon1.png">
-		                	</div>
-		                	<div class="2">
-		                		<img src="images/icon2.png">
-		                	</div>
+		                	<div class="editar"></div>
+		                	<div class="borrar"></div>
 		                </td>
 		            </tr>
 		             <tr>
 		                <td>Telefono1</td>
 		                <td>telefono</td>
 		                <td class="acciones">
-		                	<div class="a">
-		                		<img src="images/icon1.png">
-		                	</div>
-		                	<div class="2">
-		                		<img src="images/icon2.png">
-		                	</div>
+		                	<div class="editar"></div>
+		                	<div class="borrar"></div>
 		                </td>
 		            </tr>
 		             <tr>
 		                <td>domicilio1</td>
 		                <td>domicilio</td>
 		                <td class="acciones">
-		                	<div class="a">
-		                		<img src="images/icon1.png">
-		                	</div>
-		                	<div class="2">
-		                		<img src="images/icon2.png">
-		                	</div>
+		                	<div class="editar"></div>
+		                	<div class="borrar"></div>
 		                </td>
 		            </tr>
 		        </tbody>

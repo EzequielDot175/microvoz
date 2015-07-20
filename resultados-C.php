@@ -138,11 +138,11 @@
 			
 
 			<!-- COL2 -->
-			<div class="col2">
+			<div class="columna2">
 				<div class="form-gral">
 					<form action="">
 
-						<h4>Resultados de gestión</h4>
+						<h4 class="titulo-top">Resultados de gestión</h4>
 						<div class="block">
 							<label class="simple">Categoria</label>
 							<input type="text" name="" value="">
