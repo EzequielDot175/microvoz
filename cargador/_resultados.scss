@@ -1,0 +1,223 @@
+// ========================
+/******** GENERAL ********/
+// ========================
+
+.resultados{
+	.crm_contenedorA {
+		background-color:#F6F6F6;
+		width: 774px;
+		height: auto;
+		min-height: 600px;
+		position: relative;
+		float: left;
+
+		.titulo{
+			width: 100%;
+			float: left;
+			background-color: #ECECEC;
+			font-weight: bold;
+
+			p{
+				border-right:1px solid #F6F6F6;
+				float: left;
+				color: #747474;
+				background-color: #ECECEC;
+				padding: 10px;
+			}
+
+			.activo{
+				background-color:#F6F6F6;
+				color: #000;
+			}
+		}
+
+		.columna50 {
+			width: 100%;
+			padding:20px;
+			height: auto;
+			box-sizing: border-box;
+			float: left;
+
+			h3{
+				border-bottom: 1px solid #C6C6C6;
+				width: 100%;
+				padding-bottom: 3px;
+				margin-bottom: 12px;
+				font-weight: normal;
+			}
+
+			h4{
+				border-bottom: 1px solid #C6C6C6;
+				color: #B4B4B4;
+				width: 100%;
+				padding-bottom: 3px;
+				margin-bottom: 15px;
+				font-weight: normal;
+				text-transform: uppercase;
+			}
+
+			.spacer{
+				height: 25px;
+				float: left;
+			}
+
+			.columna1{
+				float: left;
+				width: 50%;
+				padding-right: 50px;
+				display: block;
+				box-sizing: border-box;
+			}
+
+			.columna2{
+				float: left;
+				width: 50%;
+				padding-left: 50px;
+				display: block;
+				box-sizing: border-box;
+			}
+
+			.item-categoria{
+				float: left;
+				width: 100%;
+				margin-bottom: 15px;
+
+				.subitem{
+					padding-left: 25px;
+				}
+			}
+
+			.agregar-categoria{
+				float: left;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+
+			.resultados-telefonicos{
+				margin-top: 30px;
+				float: left;
+				width: 100%;
+			}
+
+			.block{
+				float: left;
+				width: 100%;
+				p{
+					padding-top: 2px;
+				}
+				.item{
+					float: left;
+				}
+				.text{
+					padding-left: 5px;
+				}
+			}
+
+			.form-gral {
+	  			width: 100%;
+
+	  			.block{
+	  				margin: 5px  0;
+	  			}
+
+	  			label {
+					width: 30%;
+					font-weight: bold;
+				}
+
+				select, input {
+					width: 66%;
+				}
+
+				select {
+					background-color:#D1D1D1 !important; 
+				}
+
+				.activo{
+					background-color: #D1D1D1;
+					border: 1px solid #D1D1D1;
+				}
+
+				hr{
+					border: none;
+					border-bottom: 1px solid rgba(0,0,0,.2);
+					float: left;
+					width: 100%;
+					margin: 0;
+					padding: 0;
+				}
+
+				h4 {
+					margin-bottom: 0px;
+					margin-top: 10px;
+					float: left;
+				}
+
+				.mensaje{
+					float: right;
+					width: 66%;
+					color: #757575;
+					font-style: italic;
+				}
+			}
+		}
+
+		.columna-tabla{
+			td {
+				background-color: #E2E2E2;
+				color: #606060;
+				width: auto;
+			}
+
+			.inactivo{
+				background-color:#EBEBEB !important;
+			}
+		
+		}
+
+		.pie {
+			width: 734px;
+			padding:10px 20px;
+			position: absolute;
+			bottom: 0;
+
+			.a{
+				float: left;
+
+				p{
+					float: left;
+					margin-top: 5px;
+					margin-left: 5px;
+					font-weight: bold;
+					color: #555555;
+				}
+				.editar{
+					float: left;
+					background-image:url('../images/icon1.png');
+					height: 20px;
+					width: 20px;
+					cursor: pointer;
+				}
+
+				.editar:hover{
+					background-image:url('../images/icon1-hover.png');
+				}
+			}
+
+			.b{
+				float: right;
+				img{
+					float: left;
+					cursor: pointer;
+				}
+
+				img:hover{
+					opacity: .8;
+				}
+			}
+
+		}
+		
+	}
+
+}

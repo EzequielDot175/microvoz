@@ -1311,80 +1311,6 @@
         margin-top: 2px; }
 
 /******** STEP 6 ********/
-ul, li {
-  list-style: none;
-  margin: 0px;
-  padding: 0px; }
-
-:focus {
-  outline: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-  padding: 0px; }
-
-.crm_contenedorA {
-  width: 944px;
-  height: 690px;
-  position: relative;
-  margin-top: 25px;
-  color: #333;
-  font-family: Arial,Helvetica,sans-serif; }
-
-.titulo-general {
-  margin-left: 10px;
-  width: 100%;
-  float: left; }
-
-.columna-auto {
-  width: 449px;
-  height: 120px;
-  float: left;
-  margin-right: 23px;
-  position: relative;
-  margin-top: 10px; }
-
-.columna-agregar-campo {
-  height: 360px; }
-
-.columna-tabla {
-  height: auto; }
-  .columna-tabla table {
-    width: 100%;
-    padding: 0;
-    border: none;
-    font-size: 10px;
-    border-collapse: collapse;
-    font-weight: bold;
-    color: #666; }
-    .columna-tabla table .acciones .a {
-      width: 50%;
-      float: left; }
-      .columna-tabla table .acciones .a img {
-        display: block;
-        margin: 0 auto; }
-    .columna-tabla table .acciones .b {
-      width: 50%;
-      float: left; }
-      .columna-tabla table .acciones .b img {
-        display: block;
-        margin: 0 auto; }
-  .columna-tabla thead {
-    background-color: #D1D1D1;
-    border: none; }
-  .columna-tabla th, .columna-tabla td {
-    border: none;
-    font-size: 10px;
-    padding: 0px; }
-  .columna-tabla td {
-    padding: 8px;
-    border: 1px solid #fff; }
-  .columna-tabla th {
-    padding: 5px;
-    border: 1px solid #fff;
-    color: #fff;
-    font-size: 11px; }
-
 .subcampos {
   width: 100%;
   float: left;
@@ -1495,9 +1421,28 @@ h1, h2, h3, h4, h5, h6 {
   background: #E2E2E2; }
 
 /******** STEP 7 ********/
+.contenedor-grafico {
+  width: 748px !important;
+  height: auto !important;
+  min-height: 500px !important; }
+
+.botones-centrados {
+  float: left;
+  widthauto: margin;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -110px; }
+  .botones-centrados .boton {
+    position: relative;
+    width: 110px;
+    margin: 0 5px; }
+
 .grafico {
   margin-left: 10px;
-  width: 550px;
+  width: 450px;
   margin-left: 10px;
   float: left;
   height: 500px;
@@ -1534,7 +1479,6 @@ h1, h2, h3, h4, h5, h6 {
           width: 15px;
           height: 15px;
           float: left;
-          background-color: #666;
           border-radius: 100%; }
         .grafico .grafico-torta .info .item p {
           float: left;
@@ -1549,6 +1493,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #666; }
     .grafico .descripcion span {
       font-weight: bold; }
+    .grafico .descripcion p {
+      padding: 5px 0; }
 
 .form-grafico {
   width: 260px;
@@ -1603,5 +1549,289 @@ h1, h2, h3, h4, h5, h6 {
 
 .gris-background {
   background: #E2E2E2 !important; }
+
+/******** GENERAL ********/
+ul, li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+
+:focus {
+  outline: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px; }
+
+.text-center {
+  text-align: center !important; }
+
+.crm_contenedorA {
+  width: 944px;
+  height: 690px;
+  position: relative;
+  margin-top: 25px;
+  color: #333;
+  font-family: Arial,Helvetica,sans-serif; }
+
+.titulo-general {
+  margin-left: 10px;
+  width: 100%;
+  float: left; }
+
+.columna-auto {
+  width: 449px;
+  height: 120px;
+  float: left;
+  margin-right: 23px;
+  position: relative;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box; }
+
+.columna-agregar-campo {
+  height: 360px;
+  padding: 10px;
+  box-sizing: border-box; }
+
+.spacer {
+  height: 20px;
+  float: left; }
+
+.columna-tabla {
+  height: auto; }
+  .columna-tabla table {
+    width: 100%;
+    padding: 0;
+    border: none;
+    font-size: 10px;
+    border-collapse: collapse;
+    font-weight: bold;
+    color: #666; }
+    .columna-tabla table .acciones .a {
+      width: 50%;
+      float: left; }
+      .columna-tabla table .acciones .a img {
+        display: block;
+        margin: 0 auto; }
+    .columna-tabla table .acciones .b {
+      width: 50%;
+      float: left; }
+      .columna-tabla table .acciones .b img {
+        display: block;
+        margin: 0 auto; }
+  .columna-tabla thead {
+    background-color: #A8A8A8;
+    border: none; }
+  .columna-tabla th, .columna-tabla td {
+    border: none;
+    font-size: 10px;
+    padding: 0px; }
+  .columna-tabla td {
+    padding: 8px;
+    border: 1px solid #fff; }
+  .columna-tabla th {
+    padding: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 11px; }
+
+.columna-background {
+  background: #E2E2E2; }
+
+.form-gral {
+  width: 260px;
+  float: left;
+  position: relative; }
+  .form-gral .separador {
+    height: 35px;
+    float: left;
+    width: 100%; }
+  .form-gral label {
+    width: 60px;
+    float: left;
+    min-height: 18px;
+    font-size: 11px;
+    padding-top: 5px;
+    text-align: right;
+    padding-right: 10px; }
+  .form-gral .simple {
+    padding-top: 12px; }
+  .form-gral input, .form-gral select {
+    width: 180px;
+    float: left;
+    border: none;
+    background-color: transparent;
+    min-height: 18px;
+    margin: 7px 0;
+    color: #545454;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 5px;
+    box-sizing: border-box; }
+  .form-gral input {
+    border: 1px solid rgba(0, 0, 0, 0.2); }
+  .form-gral select {
+    background-color: transparent;
+    height: 22px;
+    padding: 0; }
+  .form-gral option {
+    padding: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: none;
+    box-shadow: none; }
+  .form-gral option:checked, .form-gral option:hover {
+    color: white;
+    background: #757575;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none; }
+
+/******** GENERAL ********/
+.resultados .crm_contenedorA {
+  background-color: #F6F6F6;
+  width: 774px;
+  height: auto;
+  min-height: 600px;
+  position: relative;
+  float: left; }
+  .resultados .crm_contenedorA .titulo {
+    width: 100%;
+    float: left;
+    background-color: #ECECEC;
+    font-weight: bold; }
+    .resultados .crm_contenedorA .titulo p {
+      border-right: 1px solid #F6F6F6;
+      float: left;
+      color: #747474;
+      background-color: #ECECEC;
+      padding: 10px; }
+    .resultados .crm_contenedorA .titulo .activo {
+      background-color: #F6F6F6;
+      color: #000; }
+  .resultados .crm_contenedorA .columna50 {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    float: left; }
+    .resultados .crm_contenedorA .columna50 h3 {
+      border-bottom: 1px solid #C6C6C6;
+      width: 100%;
+      padding-bottom: 3px;
+      margin-bottom: 12px;
+      font-weight: normal; }
+    .resultados .crm_contenedorA .columna50 h4 {
+      border-bottom: 1px solid #C6C6C6;
+      color: #B4B4B4;
+      width: 100%;
+      padding-bottom: 3px;
+      margin-bottom: 15px;
+      font-weight: normal;
+      text-transform: uppercase; }
+    .resultados .crm_contenedorA .columna50 .spacer {
+      height: 25px;
+      float: left; }
+    .resultados .crm_contenedorA .columna50 .columna1 {
+      float: left;
+      width: 50%;
+      padding-right: 50px;
+      display: block;
+      box-sizing: border-box; }
+    .resultados .crm_contenedorA .columna50 .columna2 {
+      float: left;
+      width: 50%;
+      padding-left: 50px;
+      display: block;
+      box-sizing: border-box; }
+    .resultados .crm_contenedorA .columna50 .item-categoria {
+      float: left;
+      width: 100%;
+      margin-bottom: 15px; }
+      .resultados .crm_contenedorA .columna50 .item-categoria .subitem {
+        padding-left: 25px; }
+    .resultados .crm_contenedorA .columna50 .agregar-categoria {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px; }
+    .resultados .crm_contenedorA .columna50 .resultados-telefonicos {
+      margin-top: 30px;
+      float: left;
+      width: 100%; }
+    .resultados .crm_contenedorA .columna50 .block {
+      float: left;
+      width: 100%; }
+      .resultados .crm_contenedorA .columna50 .block p {
+        padding-top: 2px; }
+      .resultados .crm_contenedorA .columna50 .block .item {
+        float: left; }
+      .resultados .crm_contenedorA .columna50 .block .text {
+        padding-left: 5px; }
+    .resultados .crm_contenedorA .columna50 .form-gral {
+      width: 100%; }
+      .resultados .crm_contenedorA .columna50 .form-gral .block {
+        margin: 5px  0; }
+      .resultados .crm_contenedorA .columna50 .form-gral label {
+        width: 30%;
+        font-weight: bold; }
+      .resultados .crm_contenedorA .columna50 .form-gral select, .resultados .crm_contenedorA .columna50 .form-gral input {
+        width: 66%; }
+      .resultados .crm_contenedorA .columna50 .form-gral select {
+        background-color: #D1D1D1 !important; }
+      .resultados .crm_contenedorA .columna50 .form-gral .activo {
+        background-color: #D1D1D1;
+        border: 1px solid #D1D1D1; }
+      .resultados .crm_contenedorA .columna50 .form-gral hr {
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+      .resultados .crm_contenedorA .columna50 .form-gral h4 {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        float: left; }
+      .resultados .crm_contenedorA .columna50 .form-gral .mensaje {
+        float: right;
+        width: 66%;
+        color: #757575;
+        font-style: italic; }
+  .resultados .crm_contenedorA .columna-tabla td {
+    background-color: #E2E2E2;
+    color: #606060;
+    width: auto; }
+  .resultados .crm_contenedorA .columna-tabla .inactivo {
+    background-color: #EBEBEB !important; }
+  .resultados .crm_contenedorA .pie {
+    width: 734px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0; }
+    .resultados .crm_contenedorA .pie .a {
+      float: left; }
+      .resultados .crm_contenedorA .pie .a p {
+        float: left;
+        margin-top: 5px;
+        margin-left: 5px;
+        font-weight: bold;
+        color: #555555; }
+      .resultados .crm_contenedorA .pie .a .editar {
+        float: left;
+        background-image: url("../images/icon1.png");
+        height: 20px;
+        width: 20px;
+        cursor: pointer; }
+      .resultados .crm_contenedorA .pie .a .editar:hover {
+        background-image: url("../images/icon1-hover.png"); }
+    .resultados .crm_contenedorA .pie .b {
+      float: right; }
+      .resultados .crm_contenedorA .pie .b img {
+        float: left;
+        cursor: pointer; }
+      .resultados .crm_contenedorA .pie .b img:hover {
+        opacity: .8; }
 
 /*# sourceMappingURL=ezequiel.css.map */

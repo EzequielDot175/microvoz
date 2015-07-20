@@ -2,9 +2,32 @@
 /******** STEP 7 ********/
 // =======================
 
+.contenedor-grafico {
+  width: 748px !important;
+  height: auto !important;
+  min-height: 500px !important;
+}
+
+.botones-centrados{
+  float: left;
+  widthauto: margin;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -110px;
+
+	.boton {
+	  position: relative;
+	  width: 110px;
+	  margin: 0 5px;
+	}
+}
+
 .grafico{
 	margin-left: 10px;
-	width: 550px;
+	width: 450px;
 	margin-left: 10px;
 	float: left;
 	height: 500px;
@@ -54,7 +77,6 @@
 					width: 15px;
 					height: 15px;
 					float: left;
-					background-color: #666;
 					border-radius: 100%;
 				}
 
@@ -78,6 +100,10 @@
 
 		span{
 			font-weight: bold;
+		}
+
+		p{
+			padding: 5px 0;
 		}
 	}
 }

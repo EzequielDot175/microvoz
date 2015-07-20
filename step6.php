@@ -9,22 +9,20 @@
 			<div class="titulo-general">
 				<h3>Agregar / Modificar Campo</h3>
 			</div>
+
 			<div class="form">
 				<form action="">
 					<label class="nombre"> Nombre</label>
 					<input type="text" name="" value="">
 					<label> Tipo de campo</label>
 					<select name="">
-						<option value="" disabled selected>domicilio</option>
 						<option value="">Opciones</option>
 						<option value="">Opciones</option>
 						<option value="">Opciones</option>
 					</select>
 				</form>
-
-				
-
 			</div>
+
 			<div class="subcampos">
 				<div class="titulo">
 					<p>Subcampos</p>
@@ -47,7 +45,6 @@
 				</ul>
 			</div>
 			
-
 			<button class="boton">Aceptar</button>
 
 		</div>
@@ -61,7 +58,6 @@
 				<form action="">
 					<label> Campo clave del CRM</label>
 					<select name="">
-						<option value="" disabled selected></option>
 						<option value="">item</option>
 						<option value="">item</option>
 						<option value="">item</option>
