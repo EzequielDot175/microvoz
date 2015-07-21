@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="cargador/ezequiel.css">
 
 <!-- script grafico -->
 <script language="javascript" type="text/javascript" src="js/Chart.min.js"></script>

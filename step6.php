@@ -1,5 +1,4 @@
 
-<link rel="stylesheet" href="cargador/ezequiel.css">
 
 <div class="crm_contenedorA">
 
