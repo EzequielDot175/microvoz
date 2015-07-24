@@ -155,7 +155,7 @@
 						<hr>
 						
 						<div class="block">
-							<label class="simple">Tipo de agenda</label>
+							<label >Tipo de agenda</label>
 							<select class="gris-background" name="">
 								<option value="">Opciones</option>
 								<option value="">Opciones</option>
@@ -171,7 +171,17 @@
 
 						<h4>Ordenar</h4>
 						<div class="block">
-							<select class="gris-background" name="">
+							<div class="check">
+								<label class="">Al inicio</label>
+								<input type="radio" name="check1" value="1">
+							</div>
+							<div class="check">
+								<label class="">Después de</label>
+								<input type="radio" name="check2" value="1">
+							</div>
+						</div>
+						<div class="block">
+							<select class="ordenar gris-background" name="">
 								<option value="">Opciones</option>
 								<option value="">Opciones</option>
 								<option value="">Opciones</option>
@@ -187,11 +197,11 @@
 	
 		</div>
 
-		<div class="spacer"></div>
+		<div class="spacerPie"></div>
 
 		<div class="pie">
 			<div class="b">
-				<img src="images/borrar.png" alt="">
+				<img src="images/borrar-hover.png" alt="">
 				<img src="images/close.png" alt="">
 				<img src="images/ok.png" alt="">
 			</div>

@@ -56,10 +56,7 @@
 				text-transform: uppercase;
 			}
 
-			.spacer{
-				height: 25px;
-				float: left;
-			}
+			
 
 			.titulo-top{
 				margin-top: 0 !important;
@@ -110,10 +107,14 @@
 					padding-top: 2px;
 				}
 				.item{
-					float: left;
+					float: left;	
 				}
 				.text{
 					padding-left: 5px;
+				}
+				img:hover{
+					opacity: .8;
+					cursor: pointer;
 				}
 			}
 
@@ -122,19 +123,43 @@
 
 	  			.block{
 	  				margin: 5px  0;
-	  			}
 
-	  			label {
-					width: 30%;
-					font-weight: bold;
+	  				label {
+						width: 30%;
+						font-weight: bold;
+					}
+
+					select, input {
+						width: 66%;
+					}
+
+					select {
+						background-color:#D1D1D1 !important; 
+		  			}
+
+		  			.check{
+						width: 100%;
+						float: left;
+						height: 25px;
+						margin-top: 5px ;
+
+						input {
+							width: auto;
+							margin: 0;
+							padding: 0;
+						}
+
+						label{
+							padding-top: 0;
+						}
+		  			}
 				}
 
-				select, input {
-					width: 66%;
-				}
-
-				select {
-					background-color:#D1D1D1 !important; 
+				.ordenar{
+					float: right;
+					margin-right: 15px;
+					margin-top: 0;
+					margin-bottom: 0;
 				}
 
 				.activo{
@@ -162,15 +187,71 @@
 					width: 66%;
 					color: #757575;
 					font-style: italic;
+					margin-right: 12px;
 				}
 			}
 		}
 
 		.columna-tabla{
+
+			.col1{
+				width: 60px !important;
+			}
+
+			.col2{
+				width: 200px !important;
+			}
+
+			.col3{
+				width: 140px !important;
+			}
+
+			.col4{
+				width: 150px !important;
+			}
+
+			.col5{
+				width: 150px !important;
+			}
+
+			
+
+
 			td {
 				background-color: #E2E2E2;
 				color: #606060;
 				width: auto;
+			}
+
+			tr {
+				.amarillo{
+					color: #C69C00;
+				}
+				.azul{
+					color: #0071BC;
+				}
+				.rojo{
+					color: #BA4441;
+				}
+				.verde{
+					color: #83BC83;
+				}
+
+				.icon{
+					position: relative;
+					min-height: 45px !important;
+
+					p{
+						width: 130px;
+						margin-left: 20px;
+					}
+
+					img{
+						
+						width: 15px;
+						position: absolute;
+					}
+				}
 			}
 
 			.inactivo{
@@ -179,8 +260,14 @@
 		
 		}
 
+		.spacerPie{
+			height: 50px;
+			float: left;
+			width: 100%;
+		}
+
 		.pie {
-			width: 734px;
+			width: 100%;
 			padding:10px 20px;
 			position: absolute;
 			bottom: 0;
@@ -197,14 +284,14 @@
 				}
 				.editar{
 					float: left;
-					background-image:url('../images/icon1.png');
+					background-image:url('../images/editar.png');
 					height: 20px;
 					width: 20px;
 					cursor: pointer;
 				}
 
 				.editar:hover{
-					background-image:url('../images/icon1-hover.png');
+					background-image:url('../images/editar-hover.png');
 				}
 			}
 

@@ -139,7 +139,7 @@
 
 		<div class="pie">
 			<div class="b">
-				<img src="images/borrar.png" alt="">
+				<img src="images/borrar-hover.png" alt="">
 				<img src="images/close.png" alt="">
 				<img src="images/ok.png" alt="">
 			</div>
