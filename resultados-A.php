@@ -26,7 +26,7 @@
 		        <tbody>
 		            <tr>
 		                <td class="text-center">2º</td>
-		                <td class="icon" ><img src="images/operador.png" alt=""><p>
+		                <td class="icon" ><img src="images/llamada.png" alt=""><p>
 		                Agendar / habló con tercero Agendar / habló con tercero</p></td>
 		                <td class="inactivo"></td>
 		                <td class="azul">Si repite resultado Ir a Fase “Búsqueda de datos”</td>
@@ -34,7 +34,7 @@
 		            </tr>
 		             <tr>
 		                <td class="text-center">2º</td>
-		                 <td class="icon"><img src="images/llamada-error.png" alt=""><p>Abandona en espera</p></td>
+		                 <td class="icon"><img src="images/error-llamada.png" alt=""><p>Abandona en espera</p></td>
 		                <td class="verde ">Rotar y llamar a todos los teléfonos</td>
 		                <td class="text-center inactivo"></td>
 		                <td class="rojo">Si repite resultado Finalizar</td>
@@ -55,7 +55,7 @@
 		            </tr>
 		            <tr>
 		                <td class="text-center">2º</td>
-		                <td class="icon" ><p>Sin teléfono</p></td>
+		                <td class="icon" ><img src="images/configuracion.png" alt=""><p>Sin teléfono</p></td>
 		                <td class="inactivo"></td>
 		                <td class="azul">Si repite resultado Ir a Fase “Búsqueda de datos”</td>
 		                <td class="rojo">Si repite resultado 2 veces => Finalizar</td>
@@ -76,7 +76,7 @@
 		            </tr>
 		            <tr>
 		                <td class="text-center">2º</td>
-		                 <td class="icon"><img src="images/llamada-error.png" alt=""><p>Abandona en espera</p></td>
+		                 <td class="icon"><img src="images/error-llamada.png" alt=""><p>Abandona en espera</p></td>
 		                <td class="verde ">Rotar y llamar a todos los teléfonos</td>
 		                <td class="inactivo"></td>
 		                <td class="inactivo"></td>
